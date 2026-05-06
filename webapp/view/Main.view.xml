@@ -1,0 +1,50 @@
+<mvc:View
+    controllerName="zinvoices.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+        showHeader="false"
+    >
+        <Table items="{/Invoices}" growing="true" growingScrollToLoad="true">
+            <columns>
+                <Column>
+                    <Label text="Customer Id" />
+                </Column>
+                <Column>
+                    <Label text="Customer Name" />
+                </Column>
+                <Column>
+                    <Label text="Order Id" />
+                </Column>
+                <Column>
+                    <Label text="Sales Person" />
+                </Column>
+                <Column>
+                    <Label text="Shipper Name" />
+                </Column>
+                <Column>
+                    <Label text="Freight" />
+                </Column>
+                <Column>
+                    <Label text="Unit Price" />
+                </Column>
+                <Column>
+                    <Label text="Extended Price" />
+                </Column>
+            </columns>
+            <ColumnListItem>
+                <Text text="{CustomerID}" />
+                <Text text="{CustomerName}" />
+                <Text text="{OrderID}" />
+                <Text text="{Salesperson}" />
+                <Text text="{ShipName}" />
+                <Text text="{Freight}" />
+                <Text text="{UnitPrice}" />
+                <Text text="{ExtendedPrice}" />
+            </ColumnListItem>
+        </Table>
+    </Page>
+</mvc:View>
