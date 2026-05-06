@@ -5,8 +5,7 @@
 >
     <Page
         id="page"
-        title="{i18n>title}"
-        showHeader="false"
+        title="My Invoices"
     >
         <Table items="{/Invoices}" growing="true" growingScrollToLoad="true">
             <columns>
