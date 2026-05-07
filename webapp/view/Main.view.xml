@@ -5,7 +5,7 @@
 >
     <Page
         id="page"
-        title="Display Northwind Invoices"
+        title="Display My Invoices"
     >
         <Table items="{/Invoices}" growing="true" growingScrollToLoad="true">
             <columns>
