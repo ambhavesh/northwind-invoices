@@ -21,6 +21,9 @@ sap.ui.define([
 
             // enable routing
             this.getRouter().initialize();
+
+            sap.ui.getCore().applyTheme("sap_fiori_3_dark");
+
         }
     });
 });
