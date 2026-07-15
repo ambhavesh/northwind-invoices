@@ -6,7 +6,7 @@
 >
     <Page
         id="page"
-        title="Display Northwind Invoices"
+        title="Northwind Invoices"
         showHeader="false"
     >
         <smarttable:SmartTable
